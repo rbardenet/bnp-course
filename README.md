@@ -1,6 +1,6 @@
 # [Project Name]
 
-`project description`
+> project description
 
 [Project Name] is a library implementing time-travel equations based on incomplete scarce agile data. This project is used to build flux capacitors.  More information about this project can be found in my third book.
 
@@ -36,7 +36,7 @@ cd [project_name]
 And execute `setup.py`
 
 ```bash
-python setup.py install
+pip install .
 ```
 
 Of course, if you're in development mode and you want to install also dev packages, documentation and/or tests, you can do as follows:
