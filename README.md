@@ -45,9 +45,15 @@ Of course, if you're in development mode and you want to install also dev packag
 pip install -e .
 ```
 
-## Usage
+## Usage examples
 
-The main functions of this package are `x()` and `z()`. `x` receives A as argument and does X. Here is example of its usage:
+You can import [my package] by doing
+
+```python
+import my_package as mp
+```
+
+The main functions included in this package are `x()` and `z()`. `x` receives A as argument and does X. Here is example of its usage:
 
 ```python
 x(`hello`, `world`, 27, [])
