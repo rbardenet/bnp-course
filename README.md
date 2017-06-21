@@ -44,3 +44,13 @@ Of course, if you're in development mode and you want to install also dev packag
 ```bash
 pip install -e .
 ```
+
+## Usage
+
+The main functions of this package are `x()` and `z()`. `x` receives A as argument and does X. Here is example of its usage:
+
+```python
+x(`hello`, `world`, 27, [])
+```
+
+A more detailed documentation can be found in [link].
