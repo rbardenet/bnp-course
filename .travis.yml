@@ -1,17 +1,25 @@
-language: python
-python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  # PyPy versions
-  - "pypy"  # PyPy2 2.5.0
-  - "pypy3" # Pypy3 2.4.0
-  - "pypy-5.3.1"
-# command to install dependencies
+# The configurations you want to execute
+# That is, a combination of operating system and python version
+# Please add or remove for your needs.
+# Check all possible values for python in here: https://docs.travis-ci.com/user/languages/python/
+# See how to further configure the matrix of combinations in here: https://docs.travis-ci.com/user/multi-os/
+matrix:
+    include:
+        - os: linux
+          python: 3.2
+        - os: linux
+          python: 3.3
+        - os: osx
+          language: generic
+          env: TOXENV=py32
+        - os: osx
+          language: generic
+          env: TOXENV=py33
+
+# Command to install dependencies for each configuration.
 install:
+# For OSX, you may want to call a script installing virtual env and so on.
   - pip install .
-  - pip install -r requirements.txt
-# command to run tests
+  
+# Command to run tests. These are run for each configuration
 script: pytest
