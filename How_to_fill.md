@@ -29,11 +29,13 @@ To make that easy, we need to keep the `pip install` and just update the `setup.
 
 ## Continuous Integration Builds
 
+### Travis of Unix and OSX
+
 Continuous integration for Unix and MacOSX uses TravisCI (https://travis-ci.org).
 
-Travis CI has a main configuration file named .travis.yml that needs to be updated for your needs. That is, set the versions of python you would like to test for, set special scripts to run tests, and so on.
+1) Travis CI has a main configuration file named .travis.yml that needs to be updated for your needs. That is, set the versions of python you would like to test for, set special scripts to run tests, and so on.
 
-On the README.md, there is a build tag that shows what is the status of your build. You should fill the template tag with your username, your project name, and the branch that is built (usually master?).
+2) On the README.md, there is a build tag that shows what is the status of your build. You should fill the template tag with your username, your project name, and the branch that is built (usually master?).
 
 This tag looks like this:
 
@@ -42,3 +44,5 @@ This tag looks like this:
  =>
  
 [![Build Status](https://travis-ci.org/guillep/project.svg?branch=master)](https://travis-ci.org/guille/project)
+
+3) You should go to https://travis-ci.org/profile/[your_username] and activate the travis CI for your project
