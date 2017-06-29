@@ -3,6 +3,7 @@
 # Please add or remove for your needs.
 # Check all possible values for python in here: https://docs.travis-ci.com/user/languages/python/
 # See how to further configure the matrix of combinations in here: https://docs.travis-ci.com/user/multi-os/
+language: python
 matrix:
     include:
         - os: linux
