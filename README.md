@@ -1,5 +1,7 @@
 # [Project Name]
 
+[![Build Status](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])
+
 > project description
 
 [Project Name] is a library implementing time-travel equations based on incomplete scarce agile data. This project is used to build flux capacitors.  More information about this project can be found in my third book.

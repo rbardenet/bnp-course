@@ -26,3 +26,19 @@ People knowing python will probably know `pip` and how it works. Maybe some C. B
   
 You should not modify too much this section. This should be standard, people should feel that they know the process, that "they know what they are doing", even if they are not.
 To make that easy, we need to keep the `pip install` and just update the `setup.py` file with the correct dependency information.
+
+## Continuous Integration Builds
+
+Continuous integration for Unix and MacOSX uses TravisCI (https://travis-ci.org).
+
+Travis CI has a main configuration file named .travis.yml that needs to be updated for your needs. That is, set the versions of python you would like to test for, set special scripts to run tests, and so on.
+
+On the README.md, there is a build tag that shows what is the status of your build. You should fill the template tag with your username, your project name, and the branch that is built (usually master?).
+
+This tag looks like this:
+
+[![Build Status](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])
+
+ =>
+ 
+[![Build Status](https://travis-ci.org/guillep/project.svg?branch=master)](https://travis-ci.org/guille/project)
