@@ -79,7 +79,10 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['peppercorn'],
+    install_requires=[
+        'nose                 >=1.3.0,<1.8.9',
+        'coverage             >=3.5.3',
+    ],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
