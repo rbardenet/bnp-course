@@ -19,9 +19,6 @@ if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
 
     export PYENV_VERSION=${PYTHON}
     export PATH="/Users/travis/.pyenv/shims:${PATH}"
-    pyenv-virtualenv venv
-    source venv/bin/activate
-	python --version
 else
 	# Additional installation instructions for UNIX
     # sudo apt-get install -qq gcc g++
