@@ -1,6 +1,10 @@
 # [Project Name]
 
-[![Build Status](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])
+[![Template Build Status](https://travis-ci.org/guillep/python-paper-template.svg?branch=master)](https://travis-ci.org/guillep/python-paper-template)
+
+[![CheckHowThisButtonIsDoneToAdaptItToYourProject](https://travis-ci.org/[your_username]/[project_name].svg?branch=[branch_to_test])](https://travis-ci.org/[your_username]/[project_name])
+
+
 
 > project description
 
