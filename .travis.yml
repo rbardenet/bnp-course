@@ -24,9 +24,13 @@ matrix:
           env: PYTHON=3.3.6
 
 # Command to install dependencies for each configuration.
-install:
+before_install:
 # For OSX, you may want to call a script installing virtual env and so on.
   - ./scripts/install.sh
+ 
+install:
+  - python -m pip install -U pip
+  - python -m easy_install -U setuptools
   - pip install -U pytest
   - pip install sphinx
   - pip install .
