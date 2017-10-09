@@ -29,7 +29,7 @@ I just pressed [enter] to all options but default except by the project name and
 This creates a lot of files, for example:
 
 - ``conf.py`` contains all the metadata to build the doc's project
-- ``index.rst`` contains all the metadata to build the doc's project
+- ``index.rst`` is the main page of your generated site
 
 Without touching anything, this is already set to go and generate html. You can do a first build by executing::
 
