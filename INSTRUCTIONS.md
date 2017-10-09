@@ -11,11 +11,17 @@ This project is a template for python scientific projects. This template comes w
 2. Rename the `mypackage` directory as your project's name
 3. Put your code inside your package directory
 4. Put any tests you have inside the `tests` directory
-5. Update the `README.md` to relate to your project
+5. Put any data files you use under the `data` directory
+6. Update the `README.md` to relate to your project
  - change the project name
  - update the pre-requirements if any (or remove them if none)
  - update the installation instructions
  - put your usage examples and other documentation on it
+7. Remove this `INSTRUCTIONS.md` file
+
+### Choose a Licence
+
+Choose a licence and update the text into the [LICENCE](LICENCE) file.
  
 ### Setting up Travis
 
