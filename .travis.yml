@@ -34,3 +34,4 @@ install:
 script: 
   - python --version
   - pytest
+  - cd docs && make doctest
