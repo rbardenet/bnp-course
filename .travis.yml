@@ -28,6 +28,7 @@ install:
 # For OSX, you may want to call a script installing virtual env and so on.
   - ./scripts/install.sh
   - pip install -U pytest
+  - pip install sphynx
   - pip install .
   
 # Command to run tests. These are run for each configuration
