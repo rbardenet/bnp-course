@@ -1,5 +1,7 @@
 ## BNP Course
 
+*News: papers have been assigned to each group for the final project. The numbering is the same as in the project description papers.pdf*
+
 These are slides and demo notebooks for a 9h course on BNP given at ENSAE ParisTech in 2017.
 
 ### Course material
